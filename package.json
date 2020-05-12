@@ -18,5 +18,11 @@
   "homepage": "https://github.com/LarsBremen/template_node_ts#readme",
   "dependencies": {
     "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.32.0",
+    "@typescript-eslint/parser": "^2.32.0",
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
