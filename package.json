@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LarsBremen/template_node_ts/issues"
   },
-  "homepage": "https://github.com/LarsBremen/template_node_ts#readme"
+  "homepage": "https://github.com/LarsBremen/template_node_ts#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
 }
