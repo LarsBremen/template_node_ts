@@ -8,7 +8,7 @@
     "start": "node ./out/index.js",
     "build": "cd src; tsc; cd ..",
     "serve": "ts-node src/index.ts",
-    "ling": "eslint"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
