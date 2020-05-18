@@ -6,6 +6,8 @@ as well as mocha and chai for testing.
 Go to the package.json and change the parameters, `name`, `repository->url`,
 `bugs->url` and `homepage` according to your new project name and your new
 repository.  
+After that delete the tsconfig and run `npm install` this will correct the name in the
+package-lock.json and install all packages necessary.
 
 ## Build and Run
 `npm run build` compiles the app to js.  
