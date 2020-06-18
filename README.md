@@ -1,6 +1,5 @@
 # template_node_ts
-Template for node projects including configuration for Typescript and eslint 
-as well as mocha and chai for testing.
+A nodeJs / typescript template which provides all dev tools required for testing and developing, made to avoid spending time on setting up your environment. It includes configuration for nodejs, typescript, ts-node, nodemon, eslint, mocha and chai. 
 
 ## First steps
 Go to the package.json and change the parameters, `name`, `repository->url`,
