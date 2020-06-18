@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/LarsBremen/template_node_ts#readme",
   "dependencies": {
-    "nodemon": "^2.0.4",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
+    "nodemon": "^2.0.4",
     "@types/chai": "^4.2.10",
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.13.5",
