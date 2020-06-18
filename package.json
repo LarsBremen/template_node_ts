@@ -7,9 +7,9 @@
     "test": "./node_modules/.bin/mocha --require ts-node/register ./spec/*.spec.ts",
     "start": "node ./out/main.js",
     "build": "tsc --build tsconfig.json",
-    "serve": "ts-node src/main.ts",
+    "serve": "nodemon",
     "lint": "eslint",
-    "devstart": "npm run build && npm start",
+    "devstart": "ts-node src/main.ts",
     "dev": "node node_modules/nodemon/bin/nodemon.js"
   },
   "repository": {
