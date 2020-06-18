@@ -9,8 +9,7 @@
     "build": "tsc --build tsconfig.json",
     "serve": "nodemon",
     "lint": "eslint",
-    "devstart": "ts-node src/main.ts",
-    "dev": "node node_modules/nodemon/bin/nodemon.js"
+    "devstart": "ts-node src/main.ts"
   },
   "repository": {
     "type": "git",
