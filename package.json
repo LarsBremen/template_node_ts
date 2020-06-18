@@ -7,8 +7,9 @@
     "test": "./node_modules/.bin/mocha --require ts-node/register ./spec/*.spec.ts",
     "start": "node ./out/main.js",
     "build": "tsc --build tsconfig.json",
-    "serve": "ts-node src/main.ts",
-    "lint": "eslint"
+    "serve": "nodemon",
+    "lint": "eslint",
+    "devstart": "ts-node src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "typescript": "^3.8.3"
   },
   "devDependencies": {
+    "nodemon": "^2.0.4",
     "@types/chai": "^4.2.10",
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.13.5",
