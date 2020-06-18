@@ -8,7 +8,9 @@
     "start": "node ./out/main.js",
     "build": "tsc --build tsconfig.json",
     "serve": "ts-node src/main.ts",
-    "lint": "eslint"
+    "lint": "eslint",
+    "devstart": "npm run build && npm start",
+    "dev": "node node_modules/nodemon/bin/nodemon.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/LarsBremen/template_node_ts#readme",
   "dependencies": {
+    "nodemon": "^2.0.4",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
